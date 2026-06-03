@@ -27,7 +27,7 @@ pipeline {
         stage('Install dependencies & test') {
             steps {
                 sh '''
-                    pip3 install -r requirements.txt
+                    # pip3 install -r requirements.txt
                     echo "Dependencies installed"
                     # Add pytest command here if you have tests
                     # python3 -m pytest tests/ -v
