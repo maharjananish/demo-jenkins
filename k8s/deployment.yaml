@@ -4,7 +4,7 @@ metadata:
   name: my-app
   namespace: default
 spec:
-  replicas: 2                    # run 2 copies of the app
+  replicas: 1                    # run 2 copies of the app
   selector:
     matchLabels:
       app: my-app
