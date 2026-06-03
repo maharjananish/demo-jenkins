@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Change these 3 values to match your setup
-        AWS_REGION      = 'ap-east-1'
+        AWS_REGION      = 'us-east-1'
         AWS_ACCOUNT_ID  = '717319160666'
         ECR_REPO        = 'my-app-ecr'
         CLUSTER_NAME    = 'my-cluster1'
